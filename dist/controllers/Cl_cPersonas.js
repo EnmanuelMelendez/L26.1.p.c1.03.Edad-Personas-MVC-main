@@ -13,7 +13,7 @@ export default class Cl_cPersonas {
         this.vista.ocultar();
     }
     btAceptarOnClick() {
-        this.callback(new Cl_mPersonas(this.vista.edad));
+        this.callback(new Cl_mPersonas(this.vista.edad, this.vista.nombre));
         this.vista.ocultar();
     }
 }

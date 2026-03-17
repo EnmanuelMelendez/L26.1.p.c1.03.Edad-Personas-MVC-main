@@ -16,7 +16,7 @@ export default class Cl_cPromedio {
             callback: (persona) => {
                 if (persona !== null) {
                     this.mPromedio.procesar(persona);
-                    this.vPromedio.reportar({ promedio: this.mPromedio, personas: persona });
+                    this.vPromedio.reportar({ promedio: this.mPromedio, persona });
                 }
             },
         });
